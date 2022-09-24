@@ -1,0 +1,12 @@
+#based on 90 years max
+
+age = input("What is your current age?")
+
+new_age= int(age)
+remaining_years= 90-new_age
+days=remaining_years*365
+weeks=remaining_years*52
+months=remaining_years*12
+
+output= f"You have {days} days, {weeks} weeks, and {months} months left."
+print(output)
